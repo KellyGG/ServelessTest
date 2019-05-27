@@ -5,6 +5,10 @@ var dateFormat = require('dateformat');
 var AWS = require('aws-sdk');
 
 module.exports.hello = async (event) => {
+
+     await sdk.init();
+     console.log('SDK initialized and can be used');
+
   return {
     statusCode: 200,
     body: JSON.stringify({
