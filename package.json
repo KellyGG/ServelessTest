@@ -17,7 +17,7 @@
   "dependencies": {
     "attestation-agency-sdk": "^1.5.5",
     "aws-sdk": "^2.463.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "dateformat": "^3.0.3"
   }
 }
